@@ -1,7 +1,7 @@
 
 var cur_page = 0, height = 3, end_page = 0;
 var downsample_level = 1;
-var ip = "http://hkust-vgd.ust.hk";
+var ip = "https://hkust-vgd.ust.hk";
 var xmlPathPattern = ip + "/scenenn/main/@id/@id.xml";
 var plyPathPattern = ip + "/scenenn/downsample/@id/@id-" + downsample_level + ".ply";
 
